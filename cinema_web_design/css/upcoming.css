@@ -1,0 +1,82 @@
+.background {
+  background-color: #000000;
+}
+
+.upcoming {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 2cm;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+a {
+  color: #cb4335;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.5s linear;
+  color: #2e86c1;
+}
+
+.filmdiv {
+  width: 40%;
+  float: left;
+
+  margin: 0px 10px 20px 0px;
+  padding: 20px;
+  height: 300px;
+  border: 1px dotted #b50006;
+}
+
+.filmthumb {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.filmtitle {
+  float: right;
+  font-size: 0.5cm;
+  line-height: 0.6cm;
+  font-weight: bold;
+  width: 45%;
+  max-height: 120px;
+  color: #cb4335;
+  font-family: "Roboto";
+}
+
+.filmstart {
+  float: right;
+  width: 45%;
+  margin-top: 20px;
+  font-size: 0.5cm;
+  line-height: 1.1em;
+}
+
+.desc-links {
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #939598;
+  border-top: 1px solid #939598;
+  margin-bottom: 50px;
+  margin-top: 45px;
+  max-width: 220px;
+  line-height: 30px;
+}
+
+.text-judul {
+  color: #ffffff;
+}

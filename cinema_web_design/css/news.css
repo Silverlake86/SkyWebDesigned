@@ -1,0 +1,90 @@
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+	width: 1200px;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	box-sizing: border-box;
+}
+
+.upcoming
+{
+	position: relative;
+	width: 100%;
+	max-width:1200px;
+	margin: auto;
+	padding-top: 30px;
+	padding-left:40px;
+}
+
+
+h1
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	line-height: 2.0cm;
+    color: #333;
+	margin: 0;
+	padding: 0;
+    font-weight: 500;
+}
+
+a
+{
+    color: #8B4513;
+	text-decoration : none;
+}
+
+.filmdiv 
+{
+    width: 80%;
+    float: left;
+    margin: 0px 10px 20px 0px;
+    padding: 20px;
+    height: 300px;
+    border: 1px dashed #B50006;
+}
+
+.filmthumb 
+{
+    width: 50%;
+    float: left;
+	height:100%;
+}
+
+.filmtitle
+{
+	float:right;
+    font-size: 0.5cm;
+    line-height: 0.6cm;
+    font-weight: bold;
+    width: 45%;
+	max-height: 120px;
+	text-align: center;
+}
+
+.filmstart
+{
+	float:right;
+	width: 40%;
+    margin-top: 20px;
+    font-size: 0.5cm;
+    line-height: 1.1em;
+}
+
+.desc-links {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #939598;
+    border-top: 1px solid #939598;
+    margin-bottom: 50px;
+    margin-top: 45px;
+	max-width: 300px;
+	line-height: 30px;
+}
+
+a:hover {
+	transition: 0.5s linear;
+	color:  #512e5f;
+}

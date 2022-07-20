@@ -1,0 +1,111 @@
+.main-content 
+{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	box-sizing: border-box;
+}
+
+.main-content-block 
+{
+    margin-top: 42px;
+    width: 100%;
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+       
+    padding: 10px 20px;
+       
+    text-align: left;
+    list-style: none;
+    font-family: "humanst521_btroman",Helvetica,Arial,sans-serif;
+}
+
+.clearfix {
+    display: block;
+}
+
+.styletulis {
+	margin: 0px;
+    padding: 0px 20px;
+    text-align: left;
+    list-style: none;
+    font-family: "proxima_novalight",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+form.magnis-product-item-review {
+    width: 100%;
+    float: left;
+}
+
+form.magnis-product-item-review p {
+    width: 100%;
+    float: left;
+}
+
+.main-content p{
+    margin-top: 20px;
+}
+
+form.magnis-product-item-review p label {
+    width: 200px;
+    float: left;
+}
+
+form.magnis-product-item-review p input {
+    height: 40px;
+    margin: 0px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	width: 50%;
+}
+
+
+
+.button1 {
+	width: auto;
+    line-height: 40px;
+    padding: 0px 50px;
+	color: white;
+    background-color: #8B0000;
+	border: 2px solid #E7E7E7;
+    margin-left: 200px;
+    margin-top: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+
+.button1:hover 
+{
+  background-color: #3e8e41;
+  color: black;
+  transition: 0.3s;
+}
+
+
+.main-content h3 
+{
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333;
+    width: auto;
+    float: left;
+}
+
+

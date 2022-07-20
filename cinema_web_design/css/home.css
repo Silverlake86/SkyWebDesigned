@@ -1,0 +1,195 @@
+.background {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.fontstyle-atas {
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+}
+
+.template {
+  font-size: 14px;
+  line-height: 0px;
+  margin: 0;
+  position: relative;
+  color: #ffefd5;
+}
+
+.masthead h1 {
+  margin: 50px 0;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+.jumbotron {
+  text-align: center;
+  position: relative;
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2),
+    inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.masthead {
+  padding: 450px 0 30px;
+}
+
+.masthead p {
+  font-size: 1.5em;
+  margin-bottom: 80px;
+}
+
+.splash {
+  position: absolute;
+  z-index: -1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.splash img {
+  width: 100%;
+  height: 100%;
+}
+
+#banner-pagination ul li {
+  display: inline;
+  padding-top: 100px;
+  padding-left: 5px;
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+hr.soften {
+  height: 5px;
+  margin: 40px 0;
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  border: 0;
+}
+
+.span4 {
+  width: 33.3333333333333333%;
+  padding-bottom: 100px;
+  display: block;
+  float: left;
+  background-color: #000000;
+  padding-top: 40px;
+}
+
+.h2-style {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-family: "Rhodium Libre", serif;
+}
+
+h2 .firstword {
+  border-bottom: 2px solid #b1ebb5;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
+.ukuran {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.font-style {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  line-height: 2.5;
+  word-spacing: 3px;
+}
+
+.ukuran-gambar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 400px;
+}
+
+.span-gambar-row1 {
+  width: 25%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  float: left;
+  background-color: #000000;
+}
+
+.span-gambar-row2 {
+  width: 25%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  float: left;
+  background-color: #000000;
+}
+
+.heading-twenty {
+  height: 48px;
+  border: 3px solid #ffefd5;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  font-family: "Crimson Text", serif;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 15%;
+}
+
+.heading-twenty h3 {
+  font-size: 16px;
+  background-color: #000000;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+  padding: 4px 0;
+  font-size: 20px;
+  color: #ffefd5;
+  position: relative;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.image-size {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.judul-movie {
+  padding-top: 20px;
+  font-family: "Crimson Text", serif;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  text-decoration: underline;
+  font-weight: normal;
+}

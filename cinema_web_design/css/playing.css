@@ -1,0 +1,99 @@
+.background-playing {
+  background-color: black;
+}
+
+.font-judul {
+  color: white;
+}
+
+.playing {
+  width: 85%;
+  margin: auto;
+  padding-left: 180px;
+  padding-top: 20px;
+}
+
+.font-judul {
+  font-size: 40px;
+  line-height: 2cm;
+  margin: 0;
+  padding: 0;
+  color: #f0e68c;
+  font-weight: 500;
+}
+
+a {
+  color: #f0e68c;
+  text-decoration: none;
+}
+
+.filmdiv {
+  width: 80%;
+  float: left;
+  margin: 0px 10px 20px 0px;
+  padding: 20px;
+  height: 300px;
+  max-width: auto;
+  background-color: #696969;
+  border-radius: 15px;
+}
+
+.filmthumb {
+  width: 50%;
+  float: left;
+  border-radius: 15px;
+
+  height: 100%;
+}
+
+.filmtitle {
+  font-size: 23px;
+  text-decoration: underline;
+  font-weight: 500;
+  padding-bottom: 10px;
+  float: right;
+  width: 45%;
+  color: #f0e68c;
+  font-family: "Crimson Text", serif;
+}
+
+.filmstart {
+  float: right;
+  width: 45%;
+  color: #f0e68c;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  font-family: "Crimson Text", serif;
+  font-size: 0.5cm;
+  line-height: 1.3em;
+}
+
+.desc-links {
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 2px solid #939598;
+  border-top: 2px solid #939598;
+  margin-bottom: 50px;
+  margin-top: 45px;
+  max-width: 180px;
+  line-height: 30px;
+}
+
+.buttonbook {
+  cursor: pointer;
+  background: none;
+  width: 120px;
+  color: #f0e68c;
+  border: 2px solid #e7e7e7;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 34px;
+  border-radius: 12px;
+  margin-left: 25px;
+}
+
+.buttonbook:hover {
+  background-color: #3e8e41;
+  transition: 0.5s linear;
+  color: #f0e68c;
+}

@@ -1,0 +1,113 @@
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+	width: 1200px;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	box-sizing: border-box;
+}
+
+.col-12 
+{
+	position: relative;
+	padding-top: 10px;
+}
+
+img 
+{
+    width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 	
+}
+
+.main-content 
+{
+    width: auto;
+}
+
+h3
+{
+    color: #000000;
+    line-height: 1.5;
+	text-align: center;
+	font-family: Lato-Light,NotoSans-Light;
+	text-decoration: underline;
+}	
+
+a 
+{
+    text-decoration: none;
+	font-family: Lato-Light,NotoSans-Light;
+	color: #006563;
+}
+
+.col-8 
+{
+	position: relative;
+	padding-right: auto;
+	padding-bottom: 50px;
+	padding-left: auto;
+}
+
+.main-detail .desc-box .desc-movie
+{
+    list-style: none;
+	letter-spacing: 1px;
+	padding-left: 30%;
+	
+	font-family: Lato-Light,NotoSans-Light;
+}	
+
+.main-detail .desc-box .desc-movie li
+{
+    padding-left: 150px;
+    font-size: 15px;
+    position: relative;
+    text-align: justify;
+    line-height: 1.8;
+    color: #000000;
+	
+}
+
+.main-detail .desc-box .desc-movie li span
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+	
+}
+
+.main-detail .desc-links
+{
+    display: inline-block;
+    border-bottom: 1px solid #939598;
+    border-top: 1px solid #939598;
+    margin-bottom: 20px;
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 100px;
+	margin-top: 20px;
+	
+}
+
+.desc-synopsis 
+{
+    
+    text-align: justify;
+	font-family: Lato-Light,NotoSans-Light;
+    margin-top: 10px;
+	border: 3px groove #B50006;
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+
+.font-sinopsis 
+{
+    font-size: 20px;
+	font-family: Lato-Light,NotoSans-Light;
+	
+}
+

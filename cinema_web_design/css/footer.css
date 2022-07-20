@@ -1,0 +1,126 @@
+.footer-class {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background: #222;
+  color: #ffffff;
+}
+
+.bungkus {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  margin: 15px;
+  min-width: 300px;
+  color: #ffefd5;
+  font-size: 15px;
+}
+
+.box h2 {
+  letter-spacing: 3px;
+  border-bottom: 2px solid #b1ebb5;
+  position: relative;
+  margin-bottom: 15px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.box a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box a i {
+  background: #333;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+  transition: 0.5s linear;
+}
+
+.box a:hover,
+.box a:hover i {
+  color: #ffefd5;
+  border-radius: 50%;
+}
+
+.social {
+  margin-top: 5px;
+}
+
+.address a {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  min-height: 30px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.span-class {
+  color: #ffffff;
+}
+
+form button {
+  width: 30%;
+  height: 40px;
+  color: #222;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.copy {
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+.font-p {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.border-style {
+  border: none;
+  border-bottom: 1px solid;
+  background: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+
+.button-style {
+  border-radius: 12px;
+  border: 2px solid #ffefd5;
+  background: none;
+  color: #ffefd5;
+  transition-duration: 0.8s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-style:hover {
+  background: #b1ebb5;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
