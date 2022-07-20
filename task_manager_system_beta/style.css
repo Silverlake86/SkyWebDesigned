@@ -1,0 +1,84 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+{   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif;
+    background: url(login.jpg) no-repeat;
+    background-size: cover;
+}
+.login-box
+{
+    width: 500px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.login-box h1
+{
+    float: left;
+    display: flex;
+    font-size: 50px;
+    border-bottom: 6px solid #4CAF50;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+.textbox
+{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    font-size: 50px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4CAF50;
+}
+.textbox i
+{
+    width: 26px;
+    display: flex;
+    float: left;
+    text-align: center;
+}
+.textbox input
+{
+    border: none;
+    display: flex;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    float: left;
+    margin: 0 30px;
+}
+.btn
+{
+    width: 100%;
+    background: none;
+    border: 2px solid #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 12px
+}
+.regis
+{
+    width: 100%;
+    background: none;
+    border: 2px solid #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 12px
+}
+
+::placeholder
+{
+    color: lightgray;
+}

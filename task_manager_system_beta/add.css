@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family = Roboto');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #181717;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo
+{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li
+{
+    list-style: none;
+}
+
+.nav-links a
+{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger
+{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div
+{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .nav-links
+    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    .nav-links
+    {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5D4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li
+    {
+        opacity: 0;
+    }
+    .burger
+    {
+        display: block;
+    }
+}
+
+.nav-active
+{
+    transform: translateX(0%);
+}
+
+@keyframes nav-LinkFade
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+body
+{
+    background: url('home.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.input-fields
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields, .msg
+{
+    width: 48%;
+}
+
+.input-fields .input, .msg textarea
+{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+.msg textarea
+{
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-input-placeholder
+{
+    color: #c5ecfd;
+}
+
+::-moz-input-placeholder
+{
+    color: #c5ecfd;
+}
+
+::-ms-input-placeholder
+{
+    color: #c5ecfd;
+}
+
+.btn
+{
+    background: #338033;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px)
+{
+    .contact-form
+    {
+        flex-direction: column;
+    }
+    .msg textarea
+    {
+        height: 80px;
+    }
+    .input-fields, .msg
+    {
+        width: 100%;
+    }
+}
+h5
+{
+    padding: 10px;
+    color:  #c5ecfd;
+    font-family: 'Roboto', sans-serif;
+}

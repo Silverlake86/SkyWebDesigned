@@ -1,0 +1,282 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #181717;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo
+{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li
+{
+    list-style: none;
+}
+
+.nav-links a
+{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger
+{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div
+{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .nav-links
+    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    .nav-links
+    {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5D4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li
+    {
+        opacity: 0;
+    }
+    .burger
+    {
+        display: block;
+    }
+}
+
+.nav-active
+{
+    transform: translateX(0%);
+}
+
+@keyframes nav-LinkFade
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(home.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.task-table
+{
+    max-width: 1500px;
+    margin: auto;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col
+{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+.table
+{
+    background: #fff;
+    padding: 40px 20px;
+    position: relative;
+    font-family: "montserrat", sans-serif;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+    
+}
+
+.table h2
+{
+    text-transform: uppercase;
+}
+
+.table ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.table ul li
+{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.price
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.price span
+{
+    display: block;
+    font-size: 14px;
+}
+
+.table a
+{
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s linear;
+    position: relative;
+}
+
+.table a:hover
+{
+    background: #2c3e50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pop
+{
+    background: #2c3e50;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top: 16px;
+    right: -34px;
+}
+
+@media screen and (max-width: 980px)
+{
+    .col
+    {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .col
+    {
+        flex: 100%;
+    }
+}
+
+.btn
+{
+    background: none;
+    border: 2px solid #000;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+.btn:hover
+{
+    color: #fff;
+}
+
+.btn::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.btn1::before
+{
+    transform: scaleX(0);
+}
+
+.btn1:hover::before
+{
+    transform: scaleX(1);
+}
+
+.cts
+{
+    display: none;
+}
